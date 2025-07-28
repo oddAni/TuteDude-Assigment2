@@ -1,6 +1,5 @@
 A=input('enter the value: ')
-A=int(A)
 if A % 2==0:
-    print("it is even")
+    print(f"{A} is an even no.")
 else:
-    print("it is a odd no.")
+    print(f"{A}is an odd no.")
